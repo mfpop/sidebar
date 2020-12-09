@@ -3,33 +3,16 @@ import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 import * as IoIcons from "react-icons/io";
 import * as RiIcons from "react-icons/ri";
+import * as GrIcons from "react-icons/gr";
+import * as SiIcons from "react-icons/si";
 
 export const SidebarData = [
   {
-    title: "Overview",
-    path: "/overview",
-    icon: <AiIcons.AiFillHome />,
-    iconClosed: <RiIcons.RiArrowDownSFill />,
-    iconOpened: <RiIcons.RiArrowUpFill />,
-    subNav: [
-      {
-        title: "Users",
-        path: "/overview/users",
-        icon: <IoIcons.IoIosPaper />,
-      },
-      {
-        title: "Revenue",
-        path: "/overview/revenue",
-        icon: <IoIcons.IoIosPaper />,
-      },
-    ],
-  },
-  {
-    title: "Report",
+    title: "General Activities",
     path: "/reports",
-    icon: <AiIcons.AiFillHome />,
+    icon: <FaIcons.FaLayerGroup />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
-    iconOpened: <RiIcons.RiArrowUpFill />,
+    iconOpened: <RiIcons.RiArrowUpSFill />,
     subNav: [
       {
         title: "Reports1",
@@ -49,8 +32,38 @@ export const SidebarData = [
     ],
   },
   {
-    title: "pRODUCTS",
-    path: "/PRODUCTS",
-    icon: <FaIcons.FaCartPlus />,
+    title: "Engineering",
+    path: "/eng",
+    icon: <RiIcons.RiSettingsFill />,
+  },
+  {
+    title: "Human Resources",
+    path: "/products",
+    icon: <FaIcons.FaUserFriends />,
+  },
+  {
+    title: "Maintenance",
+    path: "/products",
+    icon: <FaIcons.FaTools />,
+  },
+  {
+    title: "Materials",
+    path: "/products",
+    icon: <AiIcons.AiOutlineDropbox />,
+  },
+  {
+    title: "Production",
+    path: "/products",
+    icon: <FaIcons.FaIndustry />,
+  },
+  {
+    title: "Quality",
+    path: "/products",
+    icon: <SiIcons.SiQualcomm />,
+  },
+  {
+    title: "Safety & Higine",
+    path: "/products",
+    icon: <AiIcons.AiFillSafetyCertificate />,
   },
 ];
